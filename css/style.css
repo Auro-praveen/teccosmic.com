@@ -70,6 +70,32 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
+.team-des {
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 20px rgba(174, 61, 61, 0.05);
+  height: 420px;
+  /* padding: 2px; */
+}
+
+/* .team-des:hover {
+  transform: translateY(-10px);
+  border: 1px solid #6ea4eb;
+  transition: all 0.3s ease-in-out;
+} */
+
+.team-img-border {
+  border-bottom: 4px solid #608dfd;
+  margin-top: 10px;
+}
+
+.team-des:hover .team-img-border {
+  border-bottom: 4px solid #a14234;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-10px);
+}
+
+
 /* Navigation */
 #menu {
   padding: 15px;
